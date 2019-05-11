@@ -1,0 +1,37 @@
+/* pages/hall/hall.wxss */
+.title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input{
+  display: inline-flex;
+}
+.username{
+  font-size: 40rpx;
+}
+.name{
+  font-size: 40rpx;
+  margin-top: 20rpx;
+
+}
+.region{
+  font-size: 40rpx;
+  margin-top: 20rpx;
+}
+.type{
+  font-size: 40rpx;
+  margin-top: 20rpx;
+
+}
+.scan{
+  margin-top: 30rpx;
+}
+.view{
+  margin-top: 30rpx;
+}
+.logout{
+  margin-top: 30rpx;
+
+}
+

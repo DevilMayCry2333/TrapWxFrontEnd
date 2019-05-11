@@ -1,0 +1,42 @@
+/* pages/login/login.wxss */
+.title{
+  background-color: #F8F8FF;
+  border-width: 2rem;
+  text-align: center;
+
+}
+.loginTitle{
+  font-size: 45rpx;
+}
+.interval{
+  background-color: #F0F8FF;
+  width: 100%;
+  height: 15rpx;
+}
+.systemTitle{
+  font-size: 65rpx;
+}
+
+.username{
+  font-size: 40rpx;
+  display: inline-flex;
+}
+.usernameInput{
+  margin-left: 30rpx;
+}
+.password{
+  font-size: 40rpx;
+  display: inline-flex;
+}
+.passwordInput{
+  margin-left: 30rpx;
+}
+.scanCode{
+  margin-top: 15rpx;
+  margin-bottom: 15rpx;
+}
+.loginImg{
+  width: 80%;
+  margin-top: 30rpx;
+  margin-left: 10%;
+}

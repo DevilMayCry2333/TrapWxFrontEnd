@@ -1,0 +1,28 @@
+<!--pages/hall/hall.wxml-->
+<view>
+<text class='title'>欢迎使用</text>
+</view>
+
+<view class='username'>
+<text>用户名: </text>
+<text>{{username}}</text>
+</view>
+
+<view class='name'>
+  <text>姓名:</text>
+  <text>{{name}}</text>
+</view>
+<view class='region'>
+  <text>地区:</text>
+  <text>{{area}}</text>
+</view>
+<view class='type'>
+  <text>类型:</text>
+  <text>{{myType}}</text>
+</view>
+
+<button class='scan' type='primary' bindtap='hallScanCode'>扫码</button>
+<button class='view' type='default' bindtap='viewRecord'>查看诱捕器数据</button>
+<button class='logout' type='warn' bindtap='logout'>注销</button>
+
+

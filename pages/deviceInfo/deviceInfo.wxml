@@ -1,0 +1,35 @@
+<!--pages/deviceInfo/deviceInfo.wxml-->
+<!-- <text>pages/deviceInfo/deviceInfo.wxml</text> -->
+<view>
+<text class='input'>设备ID:</text>
+<text>{{deviceId}}</text>
+</view>
+
+<view>
+<text class='input'>松墨天牛数量:</text>
+<text>{{totalNum}}</text>
+</view>
+
+
+<view class='history-table-wrap'>
+    <view class="table">
+      <view class="tr">
+          <view class="th th1">批次</view>
+          <view class="th th2">经度</view>
+          <view class="th th3">纬度</view>
+          <view class="th th4">数量</view>
+          <view class="th th5">工作内容</view>
+          <view class="th th6">药剂类型</view>
+          <view class="th th7">日期</view>
+      </view>
+      <view class="tr" wx:for="{{pageData}}">
+          <view class="td td1">{{item.batch}}</view>
+          <view class="td td2">{{item.longitude}}</view>
+          <view class="td td3">{{item.latitude}}</view>
+          <view class="td td4">{{item.num}}</view>
+          <view class="td td5">{{item.jobContent}}</view>
+          <view class="td td6">{{item.reagentType}}</view>
+          <view class="td td7">{{item.myDate}}</view>
+      </view>
+    </view>
+ </view>

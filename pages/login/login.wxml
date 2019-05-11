@@ -1,0 +1,39 @@
+<!--pages/login/login.wxml-->
+<view class='title'>
+<text class='loginTitle'>请登录</text>
+</view>
+
+<view class='interval'/>
+
+<view>
+<text class='systemTitle'>松墨天牛高效诱捕器管理和数据分析系统</text>
+</view>
+
+<view class='interval'/>
+<form bindsubmit='loginVerify'>
+<view class='username'>
+<text>用户名</text>
+<input type='text' class='usernameInput' name='username'></input>
+</view>
+
+<view class='interval'/>
+
+<view class='password'>
+<text>密码</text>
+<input type='password' class='passwordInput' name='password'></input>
+</view>
+
+<view class='interval'/>
+
+<view>
+<button type='primary' form-type='submit' size='default'>登录</button>
+
+
+<button type='default' size='default' class='scanCode' bindtap='unloginScanCode'>扫码</button>
+</view>
+
+<view class='interval'/>
+
+</form>
+<image src="{{loginImg}}" class='loginImg'/>
+

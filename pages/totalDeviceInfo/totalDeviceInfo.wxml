@@ -1,0 +1,36 @@
+<!--pages/totalDeviceInfo/totalDeviceInfo.wxml-->
+
+<view class='provice'>
+  <picker bindchange='provinceChange' range='{{provice}}' range-key='name' value="{{index}}">当前选择省:{{curProvice.name}}</picker>
+  
+</view>
+
+<view class='city'>
+    <picker bindchange='cityChange' range='{{city}}' range-key='name' value="{{index}}">当前选择市:{{curCity.name}}</picker>
+
+</view>
+<view class='distinct'>
+    <picker bindchange='distinctChange' range='{{distinct}}' range-key='name' value="{{index}}">当前选择区:{{curDistinct.name}}</picker>
+
+</view>
+
+<view class='myQuery'>
+<button type='primary' bindtap='myQuery'>查询</button>
+</view>
+
+<view class='history-table-wrap'>
+    <view class="table">
+      <view class="tr">
+          <view class="th th1">ID</view>
+          <view class="th th2">诱虫量</view>
+          <view class="th th3">到场次数</view>
+      </view>
+      <view class="tr" wx:for="{{pageData}}">
+          <view class="td td1">{{item.id}}</view>
+          <view class="td td2">{{item.num}}</view>
+          <view class="td td3">{{item.count}}</view>
+      </view>
+    </view>
+ </view>
+ 
+
