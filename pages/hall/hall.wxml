@@ -23,6 +23,7 @@
 
 <button class='scan' type='primary' bindtap='hallScanCode'>扫码</button>
 <button class='view' type='default' bindtap='viewRecord'>查看诱捕器数据</button>
+<button class='view' type='default' bindtap='viewMap'>查看地图数据</button>
 <button class='logout' type='warn' bindtap='logout'>注销</button>
 
 

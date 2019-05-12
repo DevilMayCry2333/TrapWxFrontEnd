@@ -1,0 +1,4 @@
+<!--pages/viewMap/viewMap.wxml-->
+<view>
+<map class="map" id="myMap" markers="{{mapData}}" show-location="true"/>
+</view>

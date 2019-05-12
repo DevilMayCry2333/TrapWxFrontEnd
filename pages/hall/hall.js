@@ -13,6 +13,7 @@ Page({
     area:'',
     myType:'',
     switchKey:0,
+    scannId:''
   },
 
   logout:function(e){
@@ -48,7 +49,14 @@ Page({
       }
     })
   },
-  
+  viewMap:function(){
+    this.data.scannId = wx.getStorageSync("scannId");
+
+
+      wx.navigateTo({
+        url: '/pages/viewMap/viewMap',
+      })
+  },
   viewRecord:function(){
     if (this.data.switchKey == 0){
       wx.navigateTo({
