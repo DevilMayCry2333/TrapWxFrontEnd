@@ -5,7 +5,8 @@
     "pages/hall/hall",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/totalDeviceInfo/totalDeviceInfo"
+    "pages/totalDeviceInfo/totalDeviceInfo",
+    "pages/viewMap/viewMap"
   ],
   "window": {
     "backgroundTextStyle": "light",
