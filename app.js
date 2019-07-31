@@ -34,8 +34,8 @@ App({
     })
   },
   globalData: {
-    imgurl:"https://youkaiyu.com/resources/mini",
-    url:"http://39.108.184.47:8081/",
+    imgurl:"https://yky.hifafu.com/mini",
+    url:"https://yky.hifafu.com:8081/",
     userInfo: null
   }
 })
